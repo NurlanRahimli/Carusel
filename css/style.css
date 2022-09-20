@@ -1,0 +1,79 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+#slider img{
+  width: 100%;
+  height: 600px;
+  object-fit: cover;
+}
+
+
+
+#slider{
+  position: relative;
+}
+
+.next i{
+  position: absolute;
+  top: 50%;
+  right: 20px;
+  background-color: pink;
+  padding: 20px 20px;
+  cursor: pointer;
+  border-radius: 10px;
+}
+.prev i{
+  position: absolute;
+  top: 50%;
+  left: 20px;
+  background-color: pink;
+  padding: 20px 20px;
+  cursor: pointer;
+  border-radius: 10px;
+}
+
+
+
+
+
+
+/* 
+.slider_container {
+  position: relative;
+  height: 100%;
+  overflow: hidden;
+}
+.slider {
+  display: inline-flex;
+  transition: 0.9s;
+}
+.slider img {
+  width: 100%;
+  background-position: center;
+}
+.indicator {
+  position: absolute;
+  display: inline-flex;
+  cursor: pointer;
+  left: 45%;
+  bottom: 20%;
+}
+
+.dots {
+  background-color: rgb(204, 21, 52);
+  height: 15px;
+  width: 15px;
+  border-radius: 50%;
+  transition: 0.8s;
+  margin-left: 8px;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+    rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+    rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+.dots:hover {
+  background-color: #549491;
+} */
